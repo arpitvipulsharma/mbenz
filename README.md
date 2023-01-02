@@ -29,6 +29,16 @@ For testing the solution, please try to reach the following URL:
     * https://bobbyhadz.com/blog/javascript-map-is-not-a-function
     * https://medium.com/@danieljimgarcia/publishing-static-sites-to-github-pages-using-github-actions-8040f57dfeaf
     * https://xa1.at/jest-plain-webpage/
+    * https://javascript.plainenglish.io/testing-vanilla-javascript-with-jest-8a7eaca80d40
+    * https://medium.com/swlh/jest-and-github-actions-eaf3eaf2427d
+    * https://mattermost.com/blog/get-started-with-javascript-unit-testing/
+    * https://github.com/rstacruz/mocha-jsdom/issues/36
+    * https://stackoverflow.com/questions/16633246/code-coverage-with-mocha
+    * https://zditect.com/blog/53818755.html
+    
+
+
+
 
 
 ## Problem faced during the solution
