@@ -1,0 +1,25 @@
+{
+  "name": "mbenz",
+  "version": "1.0.0",
+  "description": "Assignment for Users",
+  "main": "app.js",
+  "scripts": {
+    "test": "nyc --reporter=text mocha app.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpitvipulsharma/mbenz.git"
+  },
+  "author": "Arpit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arpitvipulsharma/mbenz/issues"
+  },
+  "homepage": "https://github.com/arpitvipulsharma/mbenz#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mocha-jsdom": "^2.0.0",
+    "nyc": "^15.1.0"
+  }
+}
