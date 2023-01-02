@@ -24,10 +24,11 @@ For testing the solution, please try to reach the following URL:
 * After this, I approached the Unit test part. It was most difficult for me as I dont have much experience with TDD. 
 * After finishing the basic code and test part, I jumped over the Github actions and Github pages. It was the easiest part for me as I have experience with CI/CD tools and other cloud-native tools.
 * Following URLs helped me in this journey :)
-https://stackoverflow.com/questions/68049447/how-to-call-for-json-output-from-an-api-into-html
-https://www.w3schools.com/html/html_tables.asp
-https://bobbyhadz.com/blog/javascript-map-is-not-a-function
-https://medium.com/@danieljimgarcia/publishing-static-sites-to-github-pages-using-github-actions-8040f57dfeaf
+    * https://stackoverflow.com/questions/68049447/how-to-call-for-json-output-from-an-api-into-html
+    * https://www.w3schools.com/html/html_tables.asp
+    * https://bobbyhadz.com/blog/javascript-map-is-not-a-function
+    * https://medium.com/@danieljimgarcia/publishing-static-sites-to-github-pages-using-github-actions-8040f57dfeaf
+    * https://xa1.at/jest-plain-webpage/
 
 
 ## Problem faced during the solution
