@@ -36,3 +36,5 @@ async function fetchDataAndRenderTable() {
   }
 
   fetchDataAndRenderTable()
+
+module.exports = fetchDataAndRenderTable;
