@@ -1,5 +1,5 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+# Simple workflow for deploying static content to GitHub Pages after unit test
+name: Software Factory Coding Challenge Solution
 
 on:
   # Runs on pushes targeting the default branch
@@ -22,13 +22,12 @@ concurrency:
 
 jobs:
   Unit_test:
+  # Unit test job
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [14.x, 16.x, 18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
@@ -40,7 +39,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm test  
     
-  # Single deploy job since we're just deploying
+  # Single deploy job
   deploy:
     needs: Unit_test
     environment:

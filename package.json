@@ -1,7 +1,7 @@
 {
   "name": "mbenz",
   "version": "1.0.0",
-  "description": "Assignment for Users",
+  "description": "Software Factory Coding Challenge",
   "main": "app.js",
   "scripts": {
     "test": "nyc --reporter=text mocha app.test.js"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/arpitvipulsharma/mbenz.git"
   },
-  "author": "Arpit",
+  "author": "Arpit Sharma",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/arpitvipulsharma/mbenz/issues"
